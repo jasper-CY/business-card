@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ecf39e;
+    color: #2b2839;
+    border-bottom: 6px solid #4f772d;
+    border-radius:20px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+img:hover, img:active {
+    width:180px;
+}
+
+a.fontHover:hover, a.fontHover:active {
+    font-size: 120%;
+    color: #3a0ca3;
+}
+
+.textstyle {
+    margin: auto 0;
+}
